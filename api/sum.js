@@ -1,5 +1,5 @@
 export default function handler(req, res) {
   const a = Number(req.query.a);
   const b = Number(req.query.b);
-  res.status(200).json({ sum: a + b , zero: 0});
+  res.status(200).json({ sum: a + b });
 }
